@@ -1,0 +1,59 @@
+body
+{
+    background-color: black;
+    font-family: "Instrument Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+img
+{
+  padding: 10;
+  margin: 10;  
+   /* Ensures the image doesn't exceed its container's width */
+  height: auto;    /* Automatically adjusts height to maintain aspect ratio */
+}
+
+header
+{
+    
+       
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;
+    color: #b9b9b9;
+    padding: 20px 30px;
+
+}
+.hbottom
+{
+    background-color: black;
+    color: #b9b9b9;
+    padding: 20px 30px;
+
+}
+
+.navtop
+{
+     display: flex; /* MAKE SURE KE cheezei horizontally display ho */
+     align-items: center;
+     justify-content: space-between; /*even spaces between all elements jo parent ke andar hai
+     requires ke parent flex mei item display karta hai*/
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+    background-color: #b9b9b9;
+}
+
+.navigationLink
+{
+    
+    color: #b9b9b9;
+    align-items: right;
+    text-align: right;
+    justify-content: space-between ;
+    padding: 20px 20px  ;
+
+}
