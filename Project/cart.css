@@ -1,0 +1,181 @@
+
+body
+ {
+    background: #0e0e0e;
+    font-family: "Inria Serif" , sans-serif;
+    color: white;
+    margin: 0;
+}
+
+h2 
+{
+     font-family: "Instrument Sans", sans-serif;
+    margin: 0;
+}
+p, h3
+{
+    font-family: "Inria Serif" , sans-serif;
+}
+
+
+/* all cart */
+
+.cartcont 
+{
+    padding: 40px 80px;
+}
+
+.carttitle
+{
+    color: #d5a100;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.content 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* any number of cart items*/
+.items
+ {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* each of the item ko edit karna hai */
+.item
+ {
+    display: flex;
+    align-items: center;
+    background: #1a1a1a;
+    padding: 15px;
+    border: 2px solid #d5a100;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.item img 
+{
+    width: 80px;
+    border-radius: 5px;
+}
+
+
+
+/* item details */
+.info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: #d5a100;
+    font-weight: bold;
+}
+
+.stock {
+    color: gold;
+}
+
+/* quantity inc dec  */
+.qtybox {
+    margin-top: 10px;
+    border: 2px solid #d5a100;
+    width: 70px;
+    padding: 5px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    background-color: #1a1a1a;
+    color: white;
+    justify-content: center;
+    
+}
+
+.qtybtn
+{
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid gold;
+}
+
+.qtyinput
+{
+    width: 20px;
+    text-align: right;
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid gold;
+    justify-content: right;
+
+
+}
+
+.rembtn {
+    margin-left: auto;
+    background: transparent;
+    color: #d5a100;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* order summary */
+
+.summary
+ {
+    width: 30%;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.summary p {
+    margin-bottom: 12px;
+}
+
+.summary span {
+    float: right;
+}
+
+.total {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d5a100;
+    margin-top: 20px;
+}
+
+/* button */
+.checkout {
+    width: 100%;
+    background: #d5a100;
+    color: black;
+    padding: 12px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;    /* makes suree that when we hover over
+     an item or button the mouse becomes a hand */
+    font-weight: bold;
+}
+
+.secondbtn {
+    width: 100%;
+    background: #1a1a1a;
+    border: 2px solid #d5a100;
+    color: #d5a100;
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+

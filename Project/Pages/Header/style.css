@@ -1,3 +1,12 @@
+
+p,h3
+{
+    font-family: "Inria serif", "sans-serif";
+}
+
+
+
+
 body
 {
     background-color: black;
@@ -80,3 +89,276 @@ header
     border-collapse: collapse ;
     border-color: gold;
 }
+
+
+/* headings of hazai wallet */
+
+.heading
+{
+    margin-left: 70px;
+    margin-top: 40px;
+    padding-left: 70px;
+        font-family: "Instrument Sans", sans-serif;
+    
+}
+
+
+/* evrything of poduct after the heading */
+.prodsec 
+{
+     
+     color: #e6e6e6;
+     padding-left: 70px;
+}
+
+.prodcont 
+{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+    padding-left: 70px;
+}
+
+/* images of wallets */
+.image
+ {
+    width: 70px;
+    border: 1px solid gold;
+    
+}
+
+
+
+.prodimg 
+{
+    width: 350px;
+    border: 1px solid gold;
+}
+
+.imgrow 
+{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* details of product specs */
+
+.price 
+{
+    font-size: 22px;
+    color: gold;
+    font-family: "Inria Serif" , sans-serif;
+}
+
+.title {
+    color: gold;
+    font-size: 24px;
+    
+}
+
+.stars 
+{
+    color: gold;
+}
+
+.num
+{
+     color: #b9b9b9; 
+}
+
+
+
+.stock 
+{
+     color: gold;
+     font-family: "Inria Serif" , sans-serif; 
+}
+
+.prodright
+{
+    font-family: "Inria Serif" , sans-serif;
+}
+
+
+
+.specbox 
+{
+    
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+
+.proddesc 
+{
+    width: 500px;
+    margin-top: 15px;
+    
+    padding-left: 20px;
+}
+
+/* the quantityies and add cart buttons */
+.click
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.qtybox 
+{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    padding-left: 0%;
+}
+
+.qtybtn 
+{
+    width: 35px;
+    height: 35px;
+    background: #111;
+    border: 1px solid gold;
+    color: gold;
+    
+}
+
+.qtyinp 
+{
+    width: 40px;
+    text-align: right;
+    background: black;
+    color: white;
+    border: 1px solid gold;
+    
+}
+
+ 
+.cartbtn, .wishlistbtn 
+{
+    margin-top: 20px;
+    width: 180px;
+    padding: 10px;
+    
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #1a1a1a;
+    
+}
+
+.cartbtn
+ {
+    background: gold;
+    color: black;
+    border: #1a1a1a;
+}
+
+.wishlistbtn 
+{
+    background: #1a1a1a;
+    color: white;
+    border: 1px solid gold;
+}
+
+/* Review ki saari details */
+
+.revsec
+{
+    font-family: "Inria Serif" , sans-serif; 
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.revtitle 
+{ 
+    margin-top: 50px;
+     font-size: 22px; 
+     color: gold;
+}
+
+.revcard 
+{
+    border: 1px solid gold;
+    padding: 15px;
+    margin-top: 15px;
+    background: #111;
+}
+
+.revinfo 
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.revimg 
+{
+    width: 40px;
+    height: 40px;
+}
+
+.revname 
+{ 
+    margin: 0;
+     font-size: 16px;
+ }
+ .revlink 
+{
+    color: gold;
+    text-decoration: none;
+}
+.revstars 
+{ 
+    margin: 0; 
+    color: gold; 
+}
+
+.revtext
+ { 
+    margin-top: 10px;
+ }
+
+
+
+/* more products section */
+.moretitle 
+{ 
+    margin-top: 50px;
+    font-size: 22px; 
+    padding-right: 50px;
+    text-align: center;
+    color: gold;
+    font-family: "Inria Serif" , sans-serif;
+}
+
+.morerow
+ {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inria Serif" , sans-serif;
+    padding-left: 150px;
+    padding-right: 200px;
+    margin-top: 20px;
+}
+
+.morecard img   /* img laganay se wo images border se baahir nhi nikalti hai */
+{
+    width: 180px;
+    border: 1px solid gold;
+    
+}
+
+.morename 
+{
+     margin: 5px 0 0; 
+    font-family: "Inria Serif" , sans-serif;
+
+}
+.moreprice 
+{
+     color: gold; 
+     font-family: "Inria Serif" , sans-serif;
+}
+

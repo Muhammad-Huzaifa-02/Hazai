@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="cart.css">
+    <title>cart</title>
+</head>
+<body style="background-color: black;">
+
+
+
+ 
+    
+
+    <section class="cartcont">
+
+        <h2 class="carttitle">Shopping Cart</h2>
+
+        <div class="content">
+
+            <!--  all cart items -->
+            <div class="items">
+
+                <!--item 1 -->
+                <div class="item">
+                    <img src="image/w11.png" alt="Wallet">
+
+                    <div class="info">
+                        <h3>Hazai Classic leather Wallet</h3>
+                        <p class="price">Rs. 5,499/- <span class="stock">(In stock)</span></p>
+
+                        <!--  q inc dec -->
+                        <div class="qtybox">
+                            
+                                <button class="qtybtn">-</button>
+                                <input type="number" value="1" class="qtyinput">
+                                <button class="qtybtn" >+</button>
+
+                        </div>
+                    </div>
+
+                    <button class="rembtn">X</button>
+                </div>
+
+                <!-- item 2-->
+                <div class="item">
+                    <img src="image/w10.png" alt="Wallet">
+
+                    <div class="info">
+                        <h3>Hazai Compact Wallet Black</h3>
+                        <p class="price">Rs. 2,499/- <span class="stock">(In stock)</span></p>
+
+                        <!-- quantity inc/dec-->
+                        <div class="qtybox">
+                            
+                                <button class="qtybtn">-</button>
+                                <input type="number" value="1" class="qtyinput">
+                                <button class="qtybtn" >+</button>
+
+                            
+                           
+                        </div>
+                    </div>
+
+                    <button class="rembtn">X</button>
+                </div>
+            </div>
+
+            <!-- order summary-->
+            <div class="summary">
+                <p>Sub total: <span>Rs. 7998/-</span></p>
+                <p>Tax: <span>Rs. 249/-</span></p>
+                <p>Delivery Cost: <span>Rs. 249/-</span></p>
+
+                <hr>
+
+                <p class="total">Total: <span>Rs. 8496/-</span></p>
+
+                <button class="checkout">Checkout</button>
+                <button class="secondbtn" onclick="save()" >Save for later</button>
+                <button class="secondbtn">Continue Shopping</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        function save() {
+        console.log("saving item");
+        window.alert("cart saved successfully");
+    }
+    
+    </script>  
+
+</body>
+</html>
+
+
