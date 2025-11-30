@@ -9,6 +9,66 @@ header{
     height: 80px;
     background-color: #1a1a1a;
 }
+
+/*THis Box is for the actual prominent pictures with some btns*/
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #0d0d0d;
+    color: white;
+}
+
+/* LEFT TEXT SIDE */
+.hero-left h1 {
+    font-size: 75px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #cccccc;
+    margin: 12px 0 25px 0;
+}
+
+/* BUTTONS AREA */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* BUTTON STYLES */
+.btn-primary {
+    background-color: goldenrod;
+    color: black;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid goldenrod;
+    color: goldenrod;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* IMAGE SIDE */
+.hero-right img {
+    width: 600px;
+    height: auto;
+}
+
+
 .PhotoGallery{
     margin-top: 70px;
     margin-left: 100px;
