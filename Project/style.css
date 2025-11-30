@@ -1,3 +1,12 @@
+
+p,h3
+{
+    font-family: "Inria serif", "sans-serif";
+}
+
+
+
+
 body
 {
     background-color: black;
@@ -95,14 +104,14 @@ header
 
 
 /* evrything of poduct after the heading */
-.product-section 
+.prodsec 
 {
      
      color: #e6e6e6;
      padding-left: 70px;
 }
 
-.product-container 
+.prodcont 
 {
     display: flex;
     gap: 50px;
@@ -111,27 +120,38 @@ header
 }
 
 /* images of wallets */
-.main-product-img 
-{
-    width: 350px;
-    border: 1px solid gold;
-}
-
-.thumbnail-row 
-{
-    display: flex;
-    gap: 10px;
-}
-
-.thumb
+.image
  {
     width: 70px;
     border: 1px solid gold;
     
 }
 
+
+
+.prodimg 
+{
+    width: 350px;
+    border: 1px solid gold;
+}
+
+.imgrow 
+{
+    display: flex;
+    gap: 20px;
+}
+
+
 /* details of product specs */
-.product-title {
+
+.price 
+{
+    font-size: 22px;
+    color: gold;
+    font-family: "Inria Serif" , sans-serif;
+}
+
+.title {
     color: gold;
     font-size: 24px;
     
@@ -142,17 +162,12 @@ header
     color: gold;
 }
 
-.small 
+.num
 {
      color: #b9b9b9; 
 }
 
-.price 
-{
-    font-size: 22px;
-    color: gold;
-    font-family: "Inria Serif" , sans-serif;
-}
+
 
 .stock 
 {
@@ -160,25 +175,27 @@ header
      font-family: "Inria Serif" , sans-serif; 
 }
 
-.product-right
+.prodright
 {
     font-family: "Inria Serif" , sans-serif;
 }
 
-.product-desc 
-{
-    width: 500px;
-    margin-top: 15px;
-    line-height: 1.5;
-    padding-left: 20px;
-}
 
-.spec-box 
+
+.specbox 
 {
     
     padding: 15px;
     margin-top: 20px;
     
+}
+
+.proddesc 
+{
+    width: 500px;
+    margin-top: 15px;
+    
+    padding-left: 20px;
 }
 
 /* the quantityies and add cart buttons */
@@ -190,7 +207,7 @@ header
 
 }
 
-.qty-box 
+.qtybox 
 {
     margin-top: 20px;
     display: flex;
@@ -198,7 +215,7 @@ header
     padding-left: 0%;
 }
 
-.qty-btn 
+.qtybtn 
 {
     width: 35px;
     height: 35px;
@@ -208,56 +225,60 @@ header
     
 }
 
-.qty-input 
+.qtyinp 
 {
     width: 40px;
-    text-align: center;
+    text-align: right;
     background: black;
     color: white;
     border: 1px solid gold;
+    
 }
 
  
-.add-cart-btn, .add-wishlist-btn 
+.cartbtn, .wishlistbtn 
 {
     margin-top: 20px;
     width: 180px;
     padding: 10px;
-    border: none;
+    
     cursor: pointer;
     font-weight: bold;
+    background-color: #1a1a1a;
+    
 }
 
-.add-cart-btn
+.cartbtn
  {
     background: gold;
     color: black;
+    border: #1a1a1a;
 }
 
-.add-wishlist-btn 
+.wishlistbtn 
 {
-    background: #222;
+    background: #1a1a1a;
     color: white;
     border: 1px solid gold;
 }
 
 /* Review ki saari details */
 
-.review-section
+.revsec
 {
     font-family: "Inria Serif" , sans-serif; 
     padding-left: 70px;
     padding-right: 70px;
 }
 
-.rev-title 
+.revtitle 
 { 
     margin-top: 50px;
      font-size: 22px; 
      color: gold;
 }
 
-.review-card 
+.revcard 
 {
     border: 1px solid gold;
     padding: 15px;
@@ -265,43 +286,44 @@ header
     background: #111;
 }
 
-.rev-info 
+.revinfo 
 {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.rev-img 
+.revimg 
 {
     width: 40px;
     height: 40px;
 }
 
-.rev-name 
+.revname 
 { 
     margin: 0;
      font-size: 16px;
  }
-.rev-stars 
+ .revlink 
+{
+    color: gold;
+    text-decoration: none;
+}
+.revstars 
 { 
     margin: 0; 
     color: gold; 
 }
 
-.rev-text
+.revtext
  { 
     margin-top: 10px;
  }
 
-.review-link 
-{
-    color: gold;
-    text-decoration: none;
-}
+
 
 /* more products section */
-.similar-title 
+.moretitle 
 { 
     margin-top: 50px;
     font-size: 22px; 
@@ -311,7 +333,7 @@ header
     font-family: "Inria Serif" , sans-serif;
 }
 
-.similar-row
+.morerow
  {
     display: flex;
     justify-content: space-between;
@@ -321,20 +343,20 @@ header
     margin-top: 20px;
 }
 
-.similar-card img 
+.morecard img   /* img laganay se wo images border se baahir nhi nikalti hai */
 {
     width: 180px;
     border: 1px solid gold;
     
 }
 
-.sim-name 
+.morename 
 {
      margin: 5px 0 0; 
     font-family: "Inria Serif" , sans-serif;
 
 }
-.sim-price 
+.moreprice 
 {
      color: gold; 
      font-family: "Inria Serif" , sans-serif;

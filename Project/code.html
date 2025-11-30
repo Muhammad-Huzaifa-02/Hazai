@@ -51,9 +51,9 @@
     </nav>
 
 <div class="heading">
-            <h2 class="product-title" >Hazai Classic Leather Wallet</h2>
+            <h2 class="title" >Hazai Classic Leather Wallet</h2>
 
-            <div class="stars">⭐⭐⭐⭐✩ <span class="small">(7)</span></div>
+            <div class="stars">⭐⭐⭐⭐✩ <span class="num">(7)</span></div>
 
             <p class="price">Rs. 5,499/- <span class="stock">(In stock)</span></p>
 
@@ -61,32 +61,32 @@
 </div>
 
 <!-- products ka section joheader se neechay hai -->
-<section class="product-section">
+<section class="prodsec">
 
-    <div class="product-container">
+    <div class="prodcont">
 
         <!-- all images of product -->
-        <div class="product-left">
-            <img src="./image/w4.png" class="main-product-img">
+        <div class="prodleft">
+            <img src="./image/w4.png" class="prodimg">
 
-            <div class="thumbnail-row">
-                <img src="./image/w1.png" class="thumb">
-                <img src="./image/w2.png" class="thumb">
-                <img src="./image/w3.png" class="thumb">
+            <div class="imgrow">
+                <img src="./image/w1.png" class="image">
+                <img src="./image/w2.png" class="image">
+                <img src="./image/w3.png" class="image">
             </div>
         </div>
 
         <!-- product ki desciption and specs -->
-        <div class="product-right">
+        <div class="prodright">
             
 
-            <p class="product-desc">
+            <p class="proddesc">
                 Crafted from 100% genuine leather, the Hazai Classic Wallet combines elegance with practicality. 
                 Featuring smooth stitching, multiple card slots, and a slim design, it’s perfect for business professionals 
                 and modern minimalists alike.
             </p>
 
-            <div class="spec-box">
+            <div class="specbox">
                 <h3 style="color: gold;">Specifications</h3>
 
                 <p>Material: Genuine Cowhide Leather</p>
@@ -99,15 +99,16 @@
 
             <!-- buttons: quantity aur add to cart  -->
             <div class="click">
-                <div class="qty-box">
-                    <button class="qty-btn" onclick="decQty()">-</button>
-                    <input id="qtyInput" type="text" value="1" class="qty-input">
-                    <button class="qty-btn" onclick="incQty()">+</button>
+                <div class="qtybox">
+                    <button class="qtybtn">-</button>
+                    <input  type="number" value="1" class="qtyinp">
+                    <button class="qtybtn">+</button>
+                    
 
                 </div>
                 
-                <button class="add-cart-btn">Add to Cart</button>
-                <button class="add-wishlist-btn">Add to Wishlist</button>
+                <button class="cartbtn" onclick="cart()">Add to Cart</button>
+                <button class="wishlistbtn">Add to Wishlist</button>
 
 
             </div>
@@ -117,64 +118,71 @@
     </div>
 
     <!-- review details -->
-    <div class="review-section">
-        <h3 class="rev-title">Reviews</h3>
+    <div class="revsec">
+        <h3 class="revtitle">Reviews</h3>
 
-        <div class="review-card">
-            <div class="rev-info">
-                <img src="./image/user.png" class="rev-img">
+        <div class="revcard">
+            <div class="revinfo">
+                <img src="./image/user.png" class="revimg">
                 <div>
-                    <p class="rev-name">Muhammad Ali</p>
-                    <p class="rev-stars">★★★★★</p>
+                    <p class="revname">Muhammad Ali</p>
+                    <p class="revstars">★★★★★</p>
                 </div>
             </div>
-            <p class="rev-text">Amazing Wallet! Pure leather and 100% legit.</p>
+            <p class="revtext">Amazing Wallet! Pure leather and 100% legit.</p>
         </div>
 
-        <div class="review-card">
-            <div class="rev-info">
-                <img src="./image/user.png" class="rev-img">
+        <div class="revcard">
+            <div class="revinfo">
+                <img src="./image/user.png" class="revimg">
                 <div>
-                    <p class="rev-name">Joe Smith</p>
-                    <p class="rev-stars">★★★★☆</p>
+                    <p class="revname">Joe Smith</p>
+                    <p class="revstars">★★★★☆</p>
                 </div>
             </div>
-            <p class="rev-text">
+            <p class="revtext">
                 This wallet is just what I needed. It has a lot of space and a decent design overall.
             </p>
         </div>
 
-        <a class="review-link" href="#">Read more reviews...</a>
+        <p>Read more reviews...</p>
     </div>
 
 
     <!-- you may also like wala section -->
-    <h3 class="similar-title">You May Also Like</h3>
+    <h3 class="moretitle">You May Also Like</h3>
 
-    <div class="similar-row">
-        <div class="similar-card">
+    <div class="morerow">
+        <div class="morecard">
             <img src="./image/w12.png">
-            <p class="sim-name">Beige</p>
-            <p class="sim-price">Rs 1500</p>
+            <p class="morename">Beige</p>
+            <p class="moreprice">Rs 1500</p>
         </div>
 
-        <div class="similar-card">
+        <div class="morecard">
             <img src="./image/w7.png">
-            <p class="sim-name">Olive</p>
-            <p class="sim-price">Rs 1800</p>
+            <p class="morename">Olive</p>
+            <p class="moreprice">Rs 1800</p>
         </div>
 
-        <div class="similar-card">
+        <div class="morecard">
             <img src="./image/w10.png">
-            <p class="sim-name">Dark Blue</p>
-            <p class="sim-price">Rs 2450</p>
+            <p class="morename">Dark Blue</p>
+            <p class="moreprice">Rs 2450</p>
         </div>
     </div>
 
 </section>
 
 
+<script>
+    function cart()
+    {
+        console.log("adding to cart...");
+        window.alert("item added to cart successfully");
+    }
 
+</script>
 
 
 
