@@ -1,0 +1,131 @@
+
+body
+{
+    background: #0c0c0c;
+    color: white;
+    font-family: "Inria Serif" , sans-serif;
+    margin: 0;
+}
+
+h1, h2, p 
+{
+    margin: 0;
+}
+h1,h2
+{
+    font-family: "Instrument Sans", sans-serif; 
+}
+
+
+
+/* all contact in general */
+.container 
+{
+    padding: 50px 80px;
+}
+
+.title {
+    font-size: 40px;
+    color: gold;
+}
+
+.subtitle
+ {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #cfcfcf;
+}
+
+.content 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* contact info */
+.info 
+{
+    width: 45%;
+}
+
+.info h2 
+{
+    margin-top: 25px;
+    color: gold;
+}
+
+.item 
+{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.faqtitle 
+{
+    margin-top: 40px;
+    color: gold;
+}
+
+.faq 
+{
+    margin-top: 20px;
+}
+
+.question 
+{
+    font-weight: bold;
+    
+    margin-bottom: 5px;
+}
+
+.answer 
+{
+    color: #bbbbbb;
+    margin-left: 5px;
+    line-height: 22px;
+}
+
+/* all form */
+.form {
+    width: 40%;
+}
+
+.form h2 
+{
+    color: gold;
+    margin-bottom: 20px;
+}
+
+/* form fields */
+.inp 
+{
+    width: 100%;
+    background: transparent;
+    border: 2px solid gold;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+.message 
+{
+    height: 120px;
+    resize: none;
+}
+
+
+.submit 
+{
+
+    width: 107%;
+    background: gold;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
