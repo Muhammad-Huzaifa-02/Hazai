@@ -1,0 +1,176 @@
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: "Inria Serif" , sans-serif;
+    color: #fff;
+}
+h1
+{
+     font-family: "Instrument Sans", sans-serif;
+}
+
+.container 
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.image 
+{
+    width: 43%;
+    position: relative;
+}
+
+.image img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image .logo 
+{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.image .logo img 
+{
+    width: 90px;
+}
+
+/* detail area*/
+.form 
+{
+    width: 50%;
+    padding: 40px 90px;
+    background: #0e0e0e;
+}
+
+.form h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: gold;
+}
+
+
+.form input 
+{
+
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    background: #1e1e1e;
+    border: 1px solid #444;
+    color: white;
+    font-size: 16px;
+}
+
+
+.btn
+ {
+    width: 100%;
+    padding: 15px;
+    background: gold;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* small create account area */
+.text 
+{
+    margin-top: 15px;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+.text a 
+{
+    color:  #cccccc;
+    font-weight:900;
+    text-decoration: none;
+}
+
+
+.divider 
+{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+.divider span 
+{
+    flex: 1;
+    height: 1px;
+    background: #555;
+    margin: 0 10px;
+}
+
+
+.socialmedia 
+{
+    display: flex;
+    gap: 20px;
+}
+
+/* google */
+.google 
+{
+    flex: 1;
+    padding: 12px 15px;
+    background: #1e1e1e;
+    border: 1px solid #555;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.google img 
+{
+    width: 22px;
+}
+
+
+/* facebook */
+
+
+.facebook 
+{
+    flex: 1;
+    padding: 12px 15px;
+    background: #1e1e1e;
+    border: 1px solid #555;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.facebook img 
+{
+
+    width: 22px;
+}

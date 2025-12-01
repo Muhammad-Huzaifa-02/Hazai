@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> 
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+
+
+    <!-- checkout start -->
+    <section class="container">
+
+        <h2 class="title">Checkout</h2>
+
+        <div class="content">
+
+            <!-- detail of person -->
+            <div class="billbox">
+
+                <h3>Billing Details</h3>
+
+                <!-- input box/row -->
+                <div class="inprow">
+                    <input type="text" placeholder="Full Name">
+                    <span class="required">*Required</span>
+                </div>
+
+                <div class="inprow">
+                    <input type="email" placeholder="Email">
+                    <span class="required">*Required</span>
+                </div>
+
+                
+                    <div class="inprow">
+                        <input type="text" placeholder="Phone">
+                        <span class="required">*Required</span>
+                    </div>
+
+                    <div class="inprow">
+                        <input type="text" placeholder="CVV Security Code">
+                        <span class="required">*Required</span>
+                    </div>
+                
+
+                <div class="inprow">
+                    <input type="text" placeholder="Address">
+                    <span class="required">*Required</span>
+                </div>
+
+                <!-- payment methods -->
+                <h3 class="paytitle">Payment Method <span class="req2">*Required</span></h3>
+
+                <div class="paybtn">
+                    <button>Credit Card</button>
+                    <button>Debit Card</button>
+                    <button>PayPal</button>
+                    <button>Apple Pay</button>
+                </div>
+            </div>
+
+            <!-- order summary -->
+            <div class="summarybox">
+                <h3 class="summarytitle">Order Summary</h3>
+
+                
+                <p>Hazai Classic leather Wallet</p>
+                <p class="price">Rs. 5,499/-</p>
+
+                
+                <p>Hazai Compact Wallet Black</p>
+                <p class="price">Rs. 2,499/-</p>
+
+                <!-- total bill -->
+                <div class="cost">
+                    <p>Sub total: <span>Rs. 7998/-</span></p>
+                    <p>Tax: <span>Rs 249/-</span></p>
+                    <p>Delivery Cost: <span>Rs. 249/-</span></p>
+                </div>
+
+                <hr>
+
+                
+                <p class="total">Total: <span>Rs. 8496/-</span></p>
+
+                
+                <button class="placebtn" onclick="order()">Place Order</button>
+            </div>
+        </div>
+
+    </section>
+
+<script>
+    function order() {
+    console.log("saving item");
+    window.alert("order placed successfully");
+  }
+  
+</script>  
+
+    
+</body>
+
+</html>
