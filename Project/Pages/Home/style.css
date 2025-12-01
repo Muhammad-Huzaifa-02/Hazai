@@ -185,7 +185,11 @@ header{
 
 .social-icons img {
     width: 35px;
+    
     margin-right: 10px;
+}
+.social-icons {
+    margin-top: 10px;
 }
 
 .footer-heading {

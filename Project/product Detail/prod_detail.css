@@ -202,7 +202,9 @@ p,h3
     height: 32px;
     stroke: currentColor;
 }
-
+.social-icons {
+    margin-top: 10px;
+}
 /* Badge */
 .badge {
     position: absolute;

@@ -536,5 +536,8 @@ body {
 .footer-links a:hover {
     color: goldenrod;
 }
+.social-icons {
+    margin-top: 10px;
+}
 
 

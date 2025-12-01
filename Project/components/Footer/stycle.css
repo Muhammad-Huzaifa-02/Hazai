@@ -13,6 +13,9 @@
     gap: 40px;
     flex-wrap: wrap;
 }
+.social-icons {
+    margin-top: 10px;
+}
 
 .footer-section {
     width: 30%;
