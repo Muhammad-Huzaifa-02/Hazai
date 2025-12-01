@@ -3,7 +3,65 @@
 <head>
     <title>About Us</title>
 </head>
-<body>
+<body style="background-color: black;">
+
+    <div>
+     <header class="header">
+        <div class="header-top">
+            <div class="logo-section">
+                <div class="logo">
+                    <div class="logo-icon">H</div>
+                    <span class="logo-text">HAZAI</span>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <a href="../Pages/Home/index.html" class="nav-link">Home</a>
+                <a href="../Pages/Product listing/index.html" class="nav-link">Shop</a>
+                <a href="../About us/index.html" class="nav-link">About</a>
+                <a href="../Contact/contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+
+      
+        <div class="header-bottom">
+            <button class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search">
+                <button class="search-btn">
+                   <img src="../image/searchheader.png" width="24px" height="24px"/>
+                </button>
+            </div>
+
+            <div class="action-icons">
+                <button class="icon-btn wishlist">
+                    <img src="../image/whishlist.png" width="24px" height="24px"/>
+                    <span class="badge">4</span>
+                </button>
+<a href="../cart/cart.html">
+                <button class="icon-btn cart" >
+                   
+                   <img src="../image/cart.png" width="24px" height="24px"/>
+                    <span class="badge">2</span>
+                </button>
+                </a>
+
+                <button class="icon-btn account" id="accountBtn">
+                   <img src="../image/user1.png" width="24px" height="24px"/>
+                </button>
+                <script>
+document.getElementById("accountBtn").addEventListener("click", function() {
+    alert("Coming Soon");
+});
+</script>
+            </div>
+        </div>
+    </header>
+   </div>
     <link rel="stylesheet" href="style.css">
     <h1>Brand Story</h1>
     <p>Hazai founded in 2019. Our Journey began with a pocket full of ambition and a <br>
@@ -54,7 +112,70 @@
         
 
     </div>
-   
+    <div>
+     <footer class="footer">
+    <div class="footer-container">
 
+        <!-- Logo and social icons -->
+        <div class="footer-section">
+            <img src="../image/logo.jpg" class="footer-logo" alt="Hazai Logo">
+
+            <h3 class="social-title">Social Media Links</h3>
+
+            <div class="social-icons">
+                <a href="#"><img src="facebook.png" alt=""></a>
+                <a href="#"><img src="instagram.png" alt=""></a>
+                <a href="#"><img src="whatsapp.png" alt=""></a>
+            </div>
+        </div>
+
+        <!-- contact details part -->
+        <div class="footer-section">
+            <h3 class="footer-heading">Contact us</h3>
+
+            <p1><strong>ph:</strong> +92 34XX-7478343</p1>
+
+            <p1><strong>Email:</strong><br>
+                Hazaiwallets@gmail.com<br>
+                hazaiwallets@hotmail.com
+            </p1>
+
+            <p1><strong>Address:</strong><br>
+                block-D, Abd road johar<br>
+                town, Lahore
+            </p1>
+        </div>
+
+        <!-- Quick Links -->
+       <div class="footer-section">
+            <h3 class="footer-heading">Quick Links</h3>
+
+            <ul class="footer-links">
+                <li><a href="#" >About</a></li>
+                <li><a  onclick="alert(
+'Q1: How long does the shipping take?\nA: 2-3 business days to get your order ready and 3-5 business days to get it delivered.\n\n' +
+'Q2: What is your return policy?\nA: All returns are subject to our return policy and must be initiated within 7 days of delivery.\n\n' +
+'Q3: Do Hazai wallets have a warranty?\nA: Yes, all Hazai wallets come with a 6-month warranty against manufacturing defects.\n\n' +
+'Q4: Do you ship Internationally?\nA: Yes, we ship to select countries. International shipping rates and times may vary.'
+)"
+
+                  >FAQs</a></li>
+                <li><a onclick="alert(`Terms & Conditions\n\n1. This website is for demo purposes only.\n2. All content is subject to change.\n3. No actual transactions are being processed.\n4. User features will be added in future updates.\n5. By continuing to use this site, you agree to these temporary terms.`)"
+                    >Terms & Condition</a></li>
+        <li><a  onclick="alert('Coming Soon!')">Returns</a></li>
+             <li><a  onclick="alert('Privacy Policy:\n\nWe do not store any actual user data. All information is for demo purposes only.')">Privacy Policy</a></li>
+
+                <li><a  onclick="alert(
+'Customer Service\n\n' +
+'✉ Email: Hazaiwallets@gmail.com\n' +
+'📍 Address: block-D, Abd road johar town, Lahore\n' +
+'☎ Phone: +92 555 5555555\n' +
+'⏰ Hours: Mon-Fri, 8 AM - 7 PM GMT+5 (Live talk session)'
+)">Customer Service</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</div>
 </body>
 </html>

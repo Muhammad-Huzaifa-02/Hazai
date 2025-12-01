@@ -259,7 +259,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: rotate(45deg);
+    transform: rotate(0deg);
     font-size: 28px;
     font-weight: bold;
     color: #d4af37;

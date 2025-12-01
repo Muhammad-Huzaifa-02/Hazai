@@ -12,43 +12,64 @@
 <body>
 
     <!-- heading top -->
-    <header style="height: 40px;">
-        <div class="header">
-            <div class="logo">
-                 <img  width="40" height="40" src="/Hazai/Project/image/logo.jpg" alt="">
-            </div>
-        </div>
-            <nav>
-                <div class="navigationLink">
-                    <a href="../Home/index.html" style="color: #b9b9b9;">Home</a>
-                    <a href="" style="color: #b9b9b9;">Contact Info</a>
-                    <a href="" style="color: #b9b9b9;">About</a>
-                    <a href="" style="color: #b9b9b9;">Shop</a>
+  
+   <div>
+     <header class="header">
+        <div class="header-top">
+            <div class="logo-section">
+                <div class="logo">
+                    <div class="logo-icon">H</div>
+                    <span class="logo-text">HAZAI</span>
                 </div>
+            </div>
+            <nav class="nav-menu">
+                <a href="../Pages/Home/index.html" class="nav-link">Home</a>
+                <a href="../Pages/Product listing/index.html" class="nav-link">Shop</a>
+                <a href="../About us/index.html" class="nav-link">About</a>
+                <a href="../Contact/contact.html" class="nav-link">Contact</a>
             </nav>
         </div>
-    </header>
 
-    <!-- header ka search bar and add to cart wala hissa -->
-    <nav class="hbottom">
-        <div class="navtop">
-            <div class="navitem">
-                <img  width="30" height="30" src="/Hazai/Project/image/filter.png" alt="">
+      
+        <div class="header-bottom">
+            <button class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search">
+                <button class="search-btn">
+                   <img src="../image//searchheader.png" width="24px" height="24px"/>
+                </button>
             </div>
-            <div class="navitem">
-                <div class="search">
-                    <input type="text"  placeholder="search"   class="placeholder">
-                    <img style="border: 1px gold;"  src="/Hazai/Project/image/searchicon.png" width="35" height="35" alt="" class="searchicon">
-                </div>
-            </div>
-            <div class="logocart">
-                <img width="30" height="30" src="/Hazai/Project/image/yellow-shopping-cart-10945.png" alt="">
-                <img width="30" height="30" src="/Hazai/Project/image/Screenshot 2025-11-23 210028.png" alt="">
-                <img width="30" height="30" src="/Hazai/Project/image/user.png" alt="">
+
+            <div class="action-icons">
+                <button class="icon-btn wishlist">
+                    <img src="../image/whishlist.png" width="24px" height="24px"/>
+                    <span class="badge">4</span>
+                </button>
+<a href="../cart/cart.html">
+                <button class="icon-btn cart">
+                   <img src="../image/cart.png" width="24px" height="24px"/>
+                    <span class="badge">2</span>
+                </button>
+                </a>
+
+                <button class="icon-btn account" id="accountBtn">
+                   <img src="../image/user1.png" width="24px" height="24px"/>
+                </button>
+                  </button>
+                <script>
+document.getElementById("accountBtn").addEventListener("click", function() {
+    alert("Coming Soon");
+});
+</script>
             </div>
         </div>
-        <div class="navbottom"></div>
-    </nav>
+    </header>
+   </div>
 
 <div class="heading">
             <h2 class="title" >Hazai Classic Leather Wallet</h2>
@@ -67,12 +88,12 @@
 
         <!-- all images of product -->
         <div class="prodleft">
-            <img src="/Hazai/Project/image/w4.png" class="prodimg">
+            <img src="../image/w4.png" class="prodimg">
 
             <div class="imgrow">
-                <img src="/Hazai/Project/image/w1.png" class="image">
-                <img src="/Hazai/Project/image/w3.png" class="image">
-                <img src="/Hazai/Project/image/w2.png" class="image">
+                <img src="../image/w1.png" class="image">
+                <img src="../image/w3.png" class="image">
+                <img src="../image/w2.png" class="image">
             </div>
         </div>
 
@@ -123,7 +144,7 @@
 
         <div class="revcard">
             <div class="revinfo">
-                <img src="/Hazai/Project/image/user.png" class="revimg">
+                <img src="../image/user.png" class="revimg">
                 <div>
                     <p class="revname">Muhammad Ali</p>
                     <p class="revstars">★★★★★</p>
@@ -134,7 +155,7 @@
 
         <div class="revcard">
             <div class="revinfo">
-                <img src="/Hazai/Project/image/user.png" class="revimg">
+                <img src="../image/user.png" class="revimg">
                 <div>
                     <p class="revname">Joe Smith</p>
                     <p class="revstars">★★★★☆</p>
@@ -154,13 +175,13 @@
 
     <div class="morerow">
         <div class="morecard">
-            <img src="/Hazai/Project/image/w12.png">
+            <img src="../image/w12.png">
             <p class="morename">Classic Black</p>
             <p class="moreprice">Rs 1500</p>
         </div>
 
         <div class="morecard">
-            <img src="/Hazai/Project/image/w7.png">
+            <img src="../image/w7.png">
             <p class="morename">Peach</p>
             <p class="moreprice">Rs 1800</p>
         </div>
@@ -183,7 +204,67 @@
     }
 
 </script>
+  <footer class="footer">
+    <div class="footer-container">
 
+        <div class="footer-section">
+            <img src="../../image/logo.jpg" class="footer-logo" alt="Hazai Logo">
+
+            <h3 class="social-title">Social Media Links</h3>
+
+            <div class="social-icons">
+                <a href="#"><img src="facebook.png" alt=""></a>
+                <a href="#"><img src="instagram.png" alt=""></a>
+                <a href="#"><img src="whatsapp.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <h3 class="footer-heading">Contact us</h3>
+
+            <p><strong>ph:</strong> +92 34XX-7478343</p>
+
+            <p><strong>Email:</strong><br>
+                Hazaiwallets@gmail.com<br>
+                hazaiwallets@hotmail.com
+            </p>
+
+            <p><strong>Address:</strong><br>
+                block-D, Abd road johar<br>
+                town, Lahore
+            </p>
+        </div>
+
+        <div class="footer-section">
+            <h3 class="footer-heading">Quick Links</h3>
+
+            <ul class="footer-links">
+                <li><a href="../About us/index.html" >About</a></li>
+                <li><a  onclick="alert(
+'Q1: How long does the shipping take?\nA: 2-3 business days to get your order ready and 3-5 business days to get it delivered.\n\n' +
+'Q2: What is your return policy?\nA: All returns are subject to our return policy and must be initiated within 7 days of delivery.\n\n' +
+'Q3: Do Hazai wallets have a warranty?\nA: Yes, all Hazai wallets come with a 6-month warranty against manufacturing defects.\n\n' +
+'Q4: Do you ship Internationally?\nA: Yes, we ship to select countries. International shipping rates and times may vary.'
+)"
+
+                  >FAQs</a></li>
+                <li><a onclick="alert(`Terms & Conditions\n\n1. This website is for demo purposes only.\n2. All content is subject to change.\n3. No actual transactions are being processed.\n4. User features will be added in future updates.\n5. By continuing to use this site, you agree to these temporary terms.`)"
+                    >Terms & Condition</a></li>
+        <li><a  onclick="alert('Coming Soon!')">Returns</a></li>
+             <li><a  onclick="alert('Privacy Policy:\n\nWe do not store any actual user data. All information is for demo purposes only.')">Privacy Policy</a></li>
+
+                <li><a  onclick="alert(
+'Customer Service\n\n' +
+'✉ Email: Hazaiwallets@gmail.com\n' +
+'📍 Address: block-D, Abd road johar town, Lahore\n' +
+'☎ Phone: +92 555 5555555\n' +
+'⏰ Hours: Mon-Fri, 8 AM - 7 PM GMT+5 (Live talk session)'
+)">Customer Service</a></li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
 
 
 
